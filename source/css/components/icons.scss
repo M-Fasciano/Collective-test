@@ -1,0 +1,45 @@
+.icon {
+    background: url('/images/sprite.png') no-repeat;
+    display: inline-block;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: -10px;
+    transform: scale(.6);
+    width: 40px;
+
+    &-cog {
+        background-position: 0 0;
+        left: inherit;
+        right: 0;
+        top: 7px;
+    }
+
+    &-home {
+        background-position: -40px 0;
+    }
+
+    &-blog {
+        background-position: -83px 0;
+    }
+
+    &-community {
+        background-position: -131px 0;
+    }
+
+    &-contest {
+        background-position: -178px 0;
+    }
+
+    &-about {
+        background-position: -222px 0;
+    }
+
+    &-contact {
+        background-position: -267px 0;
+    }
+
+    &-search {
+        background-position: -310px 4px;
+    }
+}

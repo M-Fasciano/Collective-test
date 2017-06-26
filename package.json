@@ -1,0 +1,28 @@
+{
+  "name": "collective-test",
+  "version": "0.1.0",
+  "description": "Collective - Developer Tasks – User list UI",
+  "dependencies": {
+    "browserify-shim": "^3.8.14",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-ext": "^1.0.0",
+    "gulp-front-matter": "^1.3.0",
+    "gulp-hb": "^5.1.4",
+    "gulp-iconfont": "^8.0.1",
+    "gulp-open": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-util": "^3.0.8",
+    "gulp-wait": "0.0.2",
+    "handlebars-layouts": "^3.1.4",
+    "lodash": "^4.17.4",
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "browserify-handlebars": "^1.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}

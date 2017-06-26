@@ -1,0 +1,20 @@
+{{#if mainContent}}
+    {{#with mainContent}}
+    
+    <!-- main content -->
+    <section class="main-content">
+        {{#if title}}<h1>{{title}}</h1>{{/if}}
+        {{#if txt}}<p>{{txt}}</p>{{/if}}
+        <span>Select group of users</span>
+        <label class="hidden" for="groupUsers">Users group</label>
+        <select id="groupUsers" name="groupUsers">
+            <option value="developers">Developers</option>
+            <option value="designers">Designers</option>
+        </select>
+
+        {{> modules/user-list}}
+
+    </section>
+    <!-- end main content -->
+    {{/with}}
+{{/if}}

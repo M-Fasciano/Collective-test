@@ -1,0 +1,32 @@
+{
+    "sidebar": {
+        "user": "Michele Fasciano",
+        "role": "Developer",
+        "item": [
+            {
+                "title": "Home",
+                "icon": "home"
+            },
+            {
+                "title": "Blog",
+                "icon": "blog"
+            },
+            {
+                "title": "Community",
+                "icon": "community"
+            },
+            {
+                "title": "Contest",
+                "icon": "contest"
+            },
+            {
+                "title": "About",
+                "icon": "about"
+            },
+            {
+                "title": "Contact",
+                "icon": "contact"
+            }
+        ]
+    }
+}

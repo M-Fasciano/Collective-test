@@ -1,0 +1,15 @@
+/*
+    Breakpoints
+*/
+
+$mobile: 414;
+$tablet: 769;
+$tablet-land: 1024;
+$desktop: 1224;
+$super: 1600;
+
+$mobile-breakpoint: "only screen and (min-width:" + $mobile + "px)";
+$tablet-breakpoint: "only screen and (min-width:" + $tablet + "px)";
+$tablet-land-breakpoint: "only screen and (min-width:" + $tablet-land + "px)";
+$desktop-breakpoint: "only screen and (min-width:" + $desktop + "px)";
+$super-breakpoint: "only screen and (min-width:" + $super + "px)";

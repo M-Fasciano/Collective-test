@@ -1,0 +1,27 @@
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: landscape) { 
+    body {
+        overflow: hidden;
+        position: fixed;
+        &:before {
+            background: $grey;
+            content: "";
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 105%;
+            z-index: 2;
+        }
+        &:after {
+            color: $grey-blue;
+            content: "Please use Portrait Orientation";
+            @include rem(font-size, 3rem);
+            position: absolute;
+            text-align: center;
+            top: 7%;
+            width: 100%;
+            z-index: 3;
+        }
+    }
+}

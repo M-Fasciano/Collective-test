@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    color: $grey-blue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    @include rem(font-size, 1.4rem);
+    overflow-x: hidden;
+
+    &.js-fixed {
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+    }
+}
+
+h1 {
+    @include rem(font-size, 1.4rem);
+}
+
+h2 {
+    color: $grey;
+    @include rem(font-size, 1.2rem);
+    font-weight: 100;
+}
+
+main {
+    width: 100%;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+select {
+    border: 1px solid #dde2e4;
+    border-radius: 2px;
+    color: $grey-blue;
+    margin-left: 10px;
+    @include rem(padding, 5px 50px 5px 10px);
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
