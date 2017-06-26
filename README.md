@@ -7,16 +7,16 @@ You will also need gulp-cli
 
     npm install -g gulp-cli
 
-##Commands
+## Commands
 
-##Install dependencies
+###Install dependencies
 
     npm install
 
-##Build FE project
+###Build FE project
 
     gulp build
 
-##Run local dev server and watch tasks
+###Run local dev server and watch tasks
 
     gulp
