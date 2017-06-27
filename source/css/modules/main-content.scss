@@ -13,8 +13,10 @@
     @media #{$desktop-breakpoint} {
         max-width: 60%;
         @include rem(padding, 0 50px);
+        p {
+            margin-right: 100px;
+        }
     }
-
 
     &__users {
         margin-top: 50px;
@@ -71,7 +73,7 @@
                     position: absolute;
                     top: 10px;
                     width: 20px;
-                    &::before, &::after {
+                    &:before, &:after {
                         content: '';
                         position: absolute;
                         height: 2px;
@@ -81,10 +83,10 @@
                         margin-top: -1px;
                         background: $grey-blue;
                     }
-                    &::before {
+                    &:before {
                         @include transform(rotate(45deg));
                     }
-                    &::after {
+                    &:after {
                         @include transform(rotate(-45deg));
                     }
                 }
